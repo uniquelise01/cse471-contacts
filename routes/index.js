@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-router.get('/', (req, res) => { res.send(console.log('Hello Teacher! Add /contacts in the link for the json list of contacts.')); });
+router.get('/', (req, res) => { res.send('Hello Teacher! Add /contacts in the link for the json list of contacts.'); });
 
 router.use('/contacts', require('./contacts'));
 
