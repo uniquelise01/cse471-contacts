@@ -1,5 +1,5 @@
 const router = require('express').Router();
 
-router.get('/', (req, res) => { res.send('Hello Elise!') });
+router.use('/contacts', require('./contacts'));
 
 module.exports = router;
