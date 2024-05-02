@@ -1,2 +1,0 @@
-http://localhost:3000/contacts
-http://localhost:3000/contacts/650c5812c06bc031e32200a1
